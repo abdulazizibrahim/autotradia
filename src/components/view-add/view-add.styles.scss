@@ -1,0 +1,15 @@
+.container{
+    padding-top: 30px;
+    margin-left: 400px;
+
+}
+.table{
+    width:70%;
+    border-radius: 1px solid white;
+    & :hover{
+        border-radius: 1px solid #223c7a ;
+        color : #223c7a;
+        transform: (1.05);
+    }
+    cursor: pointer;
+}

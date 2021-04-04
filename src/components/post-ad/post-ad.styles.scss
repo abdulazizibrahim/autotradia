@@ -1,0 +1,102 @@
+.post-ad{
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    .headline{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .heading{
+        font-size: 30px;
+        color: #223c7a;
+    }
+    .sub-heading{
+        font-size: 20px;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    .options{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        .line{
+            font-size: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }    
+    }
+    .border-line{ 
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-top: 5px solid white;
+        margin-bottom: 40px;
+        &:hover{
+            border-top: 5px solid #223c7a;
+        }
+
+        .head{
+         display: flex;
+         flex-direction: column;
+         color: black;
+         margin-top: 20px;
+         margin-left: 300px;
+         margin-bottom: 40px;
+     }
+     .form{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         margin-left: 350px;
+         margin-bottom: 40px;
+
+         .label{
+                margin-left: 50px;
+                .text-error{
+                    color: red;
+                }
+         }
+         .dropdown{
+             margin-left: 30px;
+            width: 300px;
+            align-items: center;
+            margin-right: 750px;
+            border: solid white;
+            box-sizing: border-box;
+            height: 40px;
+            &:hover, &:focus{
+                border: solid #518ecb;
+            }
+        }
+        .description{
+            margin-left: 10px;
+            width: 450px;
+            height: 100px;
+            align-items: center;
+            margin-right: 550px;
+            border: solid white;
+            box-sizing: border-box;
+            &:hover, &:focus{
+                border: solid #518ecb;
+            }
+            }
+     }
+     .buttons{
+         margin-left: 1000px;
+         width:250px;
+         height: 50px;
+         &:hover{
+            background: blue;
+        }
+     }
+     }
+
+    
+}

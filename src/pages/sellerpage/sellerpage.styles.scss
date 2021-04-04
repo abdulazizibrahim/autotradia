@@ -1,0 +1,48 @@
+.seller-page{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    .ass{
+        margin-top: 20px;
+        background-color: white;
+        align-items: center;
+        margin-bottom: 20px;
+        .h1s{
+            margin-left: 150px;
+            font-size: 20px;
+            color: #223c7a;
+        }
+        .highlight{
+            font-size: 20px;
+            color : #e8491d;
+        }
+    }
+    .options{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 150px;
+        .box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 50px 50px 50px 50px;
+            border: 1px solid grey;
+            padding: 50px 50px 50px 50px;
+            color: gray;
+            cursor: pointer;
+
+            &:hover{
+                color: #223c7a;
+                border: 1px solid #223c7a;
+                transform: scale(1.05);
+
+            }
+        }
+    }
+
+
+}

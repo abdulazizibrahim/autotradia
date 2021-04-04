@@ -1,0 +1,72 @@
+.the-ad{
+    .top{
+        display: flex;
+        flex-direction: row;
+        .name{
+            width : 60%;
+            padding-top: 50px;
+            justify-content: flex-start;
+            padding-left:200px;
+            padding-bottom: 10px;
+            color: #223c7a;
+        }
+        .colsx{
+            width: 35%;
+            height: 100%;
+            padding-left: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            .price{
+                padding-top: 40px;
+            }
+            .phone{
+                width: 200px;
+                height: 50px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                background: darkcyan;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+        
+    .rowsy{
+        padding-left: 200px;
+        flex-direction: row;
+        width: 60%;
+        .colsy{
+            display: flex;
+            flex-direction: column;
+            .icon-container{
+                width: 100%;
+                justify-content: space-between;
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 60px;
+                .icons{
+                    display: flex;
+                    flex-direction: column;
+                    color: #434343;;
+                    align-items: center;
+                }
+            }
+            .seller{
+                width: 100%;
+                margin-top: 60px;
+            }
+
+        }
+    }
+}
+.col-2{
+    margin-right: 50px;
+}
+.row{
+    margin-bottom:20px;
+}
+.table{
+    padding-left: 45px;
+}
